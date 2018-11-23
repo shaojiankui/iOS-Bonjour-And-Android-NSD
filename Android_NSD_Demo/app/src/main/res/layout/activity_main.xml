@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/serverCreate"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="bonjour server  create"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/serverStart"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="bonjour server start"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/serverStop"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text=" bonjour server stop"
+        android:textAllCaps="false" />
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"></View>
+    <Button
+        android:id="@+id/clientCreate"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="bonjour client create browser"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/clientStart"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="bonjour client start browser"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/clientStop"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="bonjour client stop browser"
+        android:textAllCaps="false" />
+</LinearLayout>
